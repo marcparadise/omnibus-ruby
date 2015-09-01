@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary ruby removal steps
+# after package is uninstalled.
+#
+
+echo "ruby has been uninstalled!"
+
+exit 0
