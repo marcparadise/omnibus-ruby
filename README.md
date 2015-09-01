@@ -37,7 +37,7 @@ Usage
 You create a platform-specific package using the `build project` command:
 
 ```shell
-$ bin/omnibus build ruby
+$ bin/omnibus build ruby-2.1.4
 ```
 
 The platform/architecture type of the package created will match the platform
@@ -51,7 +51,7 @@ You can clean up all temporary files generated during the build process with
 the `clean` command:
 
 ```shell
-$ bin/omnibus clean ruby
+$ bin/omnibus clean ruby-2.1.4
 ```
 
 Adding the `--purge` purge option removes __ALL__ files generated during the
@@ -59,7 +59,7 @@ build including the project install directory (`/opt/ruby`) and
 the package cache directory (`/var/cache/omnibus/pkg`):
 
 ```shell
-$ bin/omnibus clean ruby --purge
+$ bin/omnibus clean ruby-2.1.4 --purge
 ```
 
 ### Publish
